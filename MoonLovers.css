@@ -1,0 +1,34 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.character {
+    font-weight: bold;
+}
+
+.synopsis {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.synopsis h2 { 
+    margin-top: 13px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.synopsis p {
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+}
+
+body {
+    background-color: rgb(231, 229, 229);
+}
